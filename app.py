@@ -62,8 +62,9 @@ def help():
      
      os.system("cls")
 
-     print("\033[33mVTS GitHub > https://github.com/Nitram144/ValoTrackScreen/\033[0m")
+     print("\033[33mVTS GitHub > https://github.com/Nitram144/ValorantTrackerScreen/\033[0m")
      print("\033[33mHenrikDev GitHub > https://github.com/Henrik-3\033[0m")
+     input("\033[33mPress enter to return to the menu...\033[0m")
 
      menu()    
 
@@ -71,7 +72,7 @@ def menu():
 
     os.system("cls")
 
-    print("\033[33mVTS GitHub > https://github.com/Nitram144/ValoTrackScreen/\033[0m")
+    print("\033[33mVTS GitHub > https://github.com/Nitram144/ValorantTrackerScreen/\033[0m")
     print("\033[91mV\033[97mTS\033[0m v.0.0.1")
 
     try:
@@ -106,7 +107,10 @@ def reset_key():
         os.remove("key.json")
         print("\033[32mKey has been reset\033[0m")
     else:
-         print("\033[31mYou dont have a key\033[0m")    
+         print("\033[31mYou dont have a key\033[0m")  
+
+    input("\033[33mPress enter to return to the menu...\033[0m")
+     
 
     menu() 
 
